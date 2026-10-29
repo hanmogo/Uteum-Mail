@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-12",
+  "source": "http://127.0.0.1:3001",
+  "dataClock": "2026-10-03 09:00 Asia/Seoul",
+  "captures": [
+    {
+      "file": "02-today.jpg",
+      "label": "오늘",
+      "url": "http://127.0.0.1:3001/today"
+    },
+    {
+      "file": "01-onboarding.jpg",
+      "label": "시작·초기 설정",
+      "url": "http://127.0.0.1:3001/onboarding"
+    },
+    {
+      "file": "01b-account-scope.jpg",
+      "label": "계정 처리 범위",
+      "url": "http://127.0.0.1:3001/onboarding?setup=gmail"
+    },
+    {
+      "file": "04-mail.jpg",
+      "label": "통합 메일함",
+      "url": "http://127.0.0.1:3001/mail"
+    },
+    {
+      "file": "04b-mail-detail.jpg",
+      "label": "메일 상세·관련 업무",
+      "url": "http://127.0.0.1:3001/mail?thread=t-quote&message=m-quote"
+    },
+    {
+      "file": "04c-mail-original.jpg",
+      "label": "초기화한 메일 상세",
+      "url": "http://127.0.0.1:3001/mail?thread=t-quote&message=m-quote"
+    },
+    {
+      "file": "03-tasks.jpg",
+      "label": "할 일·답변 대기",
+      "url": "http://127.0.0.1:3001/tasks?account=gmail&task=task-quote"
+    },
+    {
+      "file": "05-compose.jpg",
+      "label": "답장 편집·저장",
+      "url": "http://127.0.0.1:3001/tasks?account=gmail&task=task-quote&draft=draft-102"
+    },
+    {
+      "file": "05b-sent.jpg",
+      "label": "모의 발송 완료",
+      "url": "http://127.0.0.1:3001/tasks?account=gmail&task=task-quote&draft=draft-102"
+    },
+    {
+      "file": "03b-deadline.jpg",
+      "label": "기한 변경 채택",
+      "url": "http://127.0.0.1:3001/tasks?account=gmail&task=task-review"
+    },
+    {
+      "file": "06-search.jpg",
+      "label": "키워드 검색",
+      "url": "http://127.0.0.1:3001/search?account=gmail"
+    },
+    {
+      "file": "06b-assistant.jpg",
+      "label": "비서 준비된 응답",
+      "url": "http://127.0.0.1:3001/search?account=gmail&mode=assistant"
+    },
+    {
+      "file": "09-rules.jpg",
+      "label": "분류 규칙",
+      "url": "http://127.0.0.1:3001/rules?account=gmail"
+    },
+    {
+      "file": "08-services.jpg",
+      "label": "서비스·수신 관리",
+      "url": "http://127.0.0.1:3001/services?account=all"
+    },
+    {
+      "file": "08b-unsubscribe.jpg",
+      "label": "수신 해제 결과",
+      "url": "http://127.0.0.1:3001/services?account=all"
+    },
+    {
+      "file": "07-settings.jpg",
+      "label": "설정·데이터 관리",
+      "url": "http://127.0.0.1:3001/settings"
+    },
+    {
+      "file": "07b-ai-disabled.jpg",
+      "label": "AI 중단 후 제한 안내",
+      "url": "http://127.0.0.1:3001/settings?account=gmail&assistant=1"
+    },
+    {
+      "file": "10-analysis-failed.jpg",
+      "label": "AI 분석 실패 안내",
+      "url": "http://127.0.0.1:3001/today?account=gmail"
+    },
+    {
+      "file": "10b-manual-fallback.jpg",
+      "label": "분석 실패 중 수동 답장",
+      "url": "http://127.0.0.1:3001/mail?account=gmail&thread=t-quote&message=m-quote&draft=draft-101"
+    },
+    {
+      "file": "11-send-unknown.jpg",
+      "label": "발송 미확인·재발송 차단",
+      "url": "http://127.0.0.1:3001/mail?account=gmail&thread=t-quote&message=m-quote&draft=draft-101"
+    },
+    {
+      "file": "04d-mail-baseline.jpg",
+      "label": "통합 메일함 기본 자료",
+      "url": "http://127.0.0.1:3001/mail"
+    }
+  ]
+}
